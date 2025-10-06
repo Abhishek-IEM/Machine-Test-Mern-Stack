@@ -1,0 +1,138 @@
+/* Container */
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  background: #f4f6fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.smallBtn {
+  padding: 6px 14px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background-color: #667eea;
+  color: #fff;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.smallBtn:hover {
+  background-color: #5a67d8;
+  transform: translateY(-2px);
+}
+
+.actionBtns {
+  display: flex;        
+  gap: 10px;             
+  align-items: center;   
+}
+
+.deleteBtn {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.agentForm input,
+.agentForm .react-tel-input {
+  margin-bottom: 10px; 
+}
+
+/* Section */
+.section {
+  margin-bottom: 30px;
+}
+
+/* Section Heading */
+.section h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #667eea;
+  padding-bottom: 5px;
+}
+
+/* Tables */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.table th,
+.table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #667eea;
+  color: #fff;
+  font-weight: 600;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table tr:hover {
+  background-color: #e3e7ff;
+  transition: 0.2s;
+}
+
+.table td[colspan="4"] {
+  text-align: center;
+  color: #999;
+  font-style: italic;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;          
+  align-items: center;   
+  justify-content: center; 
+  gap: 10px;              
+  margin-top: 15px;
+}
+
+.pageBtn {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.pageBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pageInfo {
+  font-weight: bold;
+}
