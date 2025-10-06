@@ -89,7 +89,7 @@ It provides a complete solution for **Admin Login**, **Agent Management**, and *
 git clone https://github.com/Abhishek-IEM/Machine-Test-Mern-Stack.git
 cd Machine-Test-Assignment
 
-## ⚙️ **2. Setup the Backend**
+⚙️ 2. Setup the Backend
 cd backend
 npm install
 
